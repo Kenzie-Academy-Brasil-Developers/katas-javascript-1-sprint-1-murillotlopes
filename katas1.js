@@ -53,7 +53,7 @@ function squareNumbers() {
   
   for (let i=1; i<=100; i++){
       
-    if (Number.isInteger(Math.sqrt((i))) === true){
+    if (Number.isInteger(i**0.5) === true){
       myReturn.push(i)
     }
   }
@@ -117,7 +117,7 @@ function squareNumbersBackwards() {
   
   for (let i=100; i>0; i--){
       
-    if (Number.isInteger(Math.sqrt((i))) === true){
+    if (Number.isInteger(i**0.5) === true){
       myReturn.push(i)
     }
   }
